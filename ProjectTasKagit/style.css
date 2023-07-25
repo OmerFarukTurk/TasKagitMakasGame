@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: cadetblue;
+}
+
+header {
+    text-align: center;
+    background-color: chocolate;
+    
+}
+
+header > h1 {
+    color: wheat;
+    font-weight: 650;
+    padding: 20px;
+}
+
+.score-board{
+    height: 150px;
+    width: 40%;
+    border: 5px solid rgb(2, 2, 2);
+    margin: 10px auto;
+    text-align: center;
+    font-size: 30px;
+    position: relative;
+    padding: 10px;
+    
+}
+.score-point{
+    position: absolute;
+    top: 30%;
+    right: 45%;
+    font-size: 48px
+}
+
+.badge{
+    
+    width: 100px;
+    height: 28px;
+    position: absolute;  
+    background-color: burlywood;
+    font-size: 20px;
+    text-align: center;
+    
+}
+
+#user-label{
+    left: -50px;
+    top: 40%;
+}
+#computer-label{
+    right: -50px;
+    top: 40%;
+}
+
+.result{
+    text-align: center;
+    font-size: 30px;
+    color: wheat;
+    margin: 20px 0;
+
+}
+
+.choices{
+    display: flex;
+    max-width: 1000px;
+    margin: auto;
+}
+.choice{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 100px;
+    padding: 20px 50px;
+    margin: 20px auto;
+    border: 5px solid wheat;
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+    cursor: pointer;
+}
+.choice > p {
+    font-size:30px;
+    font-weight: bold;
+    margin: 10px;
+}
+
+.choice:hover {
+    border: 5px solid greenyellow;
+    background-color: darkseagreen;
+}
+
